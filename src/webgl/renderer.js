@@ -11,8 +11,6 @@ let texCoordBuffer;
 let positionBuffer;
 let isWebGLInitialized = false;
 
-export { isWebGLInitialized };
-
 export function getRenderCanvas () {
   return renderCanvas;
 }

@@ -32,7 +32,7 @@ export function renderWebImage (enabledElement, invalidated) {
     context.setTransform(1, 0, 0, 1, 0, 0);
 
     // Clear the canvas
-    context.fillStyle = 'black';
+    context.fillStyle = 'white';
     context.fillRect(0, 0, enabledElement.canvas.width, enabledElement.canvas.height);
 
     // Turn off image smooth/interpolation if pixelReplication is set in the viewport
