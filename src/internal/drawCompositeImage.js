@@ -166,7 +166,7 @@ export default function (enabledElement, invalidated) {
   context.setTransform(1, 0, 0, 1, 0, 0);
 
   // Clear the canvas
-  context.fillStyle = 'black';
+  context.fillStyle = 'white';
   context.fillRect(0, 0, enabledElement.canvas.width, enabledElement.canvas.height);
 
   // Render all visible layers
