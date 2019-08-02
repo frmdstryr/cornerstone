@@ -78,7 +78,7 @@ export function renderGrayscaleImage (enabledElement, invalidated) {
 
   // Clear the canvas
   context.fillStyle = 'white';
-  context.fillRect(0, 0, enabledElement.canvas.width, enabledElement.canvas.height);
+  // context.fillRect(0, 0, enabledElement.canvas.width, enabledElement.canvas.height);
 
   // Turn off image smooth/interpolation if pixelReplication is set in the viewport
   context.imageSmoothingEnabled = !enabledElement.viewport.pixelReplication;
