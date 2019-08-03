@@ -29,7 +29,7 @@
     "eslint-quiet": "eslint -c .eslintrc.js --quiet src",
     "eslint-fix": "eslint -c .eslintrc.js --fix src",
     "eslint-fix-test": "eslint -c .eslintrc.js --fix test",
-    "prepublishOnly": "yarn run build",
+    "prepare": "npm run webpack",
     "start": "npm run webpack",
     "start:dev": "webpack-dev-server --config ./config/webpack/webpack-dev",
     "test": "npm run test:chrome",
